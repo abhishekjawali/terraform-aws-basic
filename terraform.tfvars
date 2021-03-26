@@ -10,7 +10,7 @@ key_name = "abhi-kp-us-east-1-demo"
 # Optional: To overwrite the default settings
 #-----------------------------------------------
 
-# All resources will be tagged with this (default is 'demo-agent-demo')
+# All resources will be tagged with this
 environment_name = "terraform-demo"
 
 # AWS region & AZs (degault is 'us-east-1' and 'us-east-1a')
