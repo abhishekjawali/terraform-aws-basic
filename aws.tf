@@ -7,4 +7,11 @@ provider "aws" {
   region = var.aws_region
 }
 
+terraform {
+  backend "s3" {
+    bucket = "abhi-terraform-backup"
+    key    = "terraform/"
+    region = "us-east-1"
+  }
+}
 
